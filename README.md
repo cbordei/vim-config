@@ -1,5 +1,13 @@
-# Setup
+# Setup for new machine
 
-- Clone the .vimrc file in you local folder
-- Run `:PluginInstall`
+1. `cd ~ && curl https://raw.githubusercontent.com/cbordei/vim-config/master/.vimrc > .vimrc`
+2. Run `:PluginInstall` in vim
+
+Optional
+3. Install the monokai theme : 
+```
+mkdir ~/.vim/colors
+cd ~/.vim/colors/ 
+curl https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim > monokai.vim
+```
 
