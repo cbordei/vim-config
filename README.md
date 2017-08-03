@@ -1,7 +1,8 @@
 # Setup for new machine
 
-1. `cd ~ && curl https://raw.githubusercontent.com/cbordei/vim-config/master/.vimrc > .vimrc`
-2. Run `:PluginInstall` in vim
+0. Setup vundle : `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+1. Copy config : `cd ~ && curl https://raw.githubusercontent.com/cbordei/vim-config/master/.vimrc > .vimrc`
+2. Install stuff: run `:PluginInstall` in vim
 
 _Optional_
 
